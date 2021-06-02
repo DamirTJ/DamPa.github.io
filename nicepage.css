@@ -34003,7 +34003,12 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 32px;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: auto;
+    height: auto;
+  }
+}
 .u-footer .u-sheet-1 {
   min-height: 309px;
 }
@@ -34176,6 +34181,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-footer .u-image-1 {
+    width: auto;
+    height: auto;
+  }
+
   .u-footer .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
